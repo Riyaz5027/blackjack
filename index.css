@@ -20,5 +20,7 @@ button{
     width:150px;
     background-color:goldenrod;
     color:#016f32;
-    
+    margin-top:9px;
+    margin-bottom:9px;
+    font-weight:bold;
 }
