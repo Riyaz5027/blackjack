@@ -5,6 +5,9 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 
+//alternative to document.getElementByID("sum-el") is
+//document.querySelector("#sum-el")
+
 function startGame() {
     document.getElementById("sum-el").textContent="Sum: "+sum
     if (sum <= 20) {
